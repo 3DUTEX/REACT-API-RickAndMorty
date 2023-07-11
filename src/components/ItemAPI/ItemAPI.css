@@ -1,0 +1,38 @@
+.character-container {
+  width: 40%;
+  display: flex;
+  background: #222;
+  margin: 30px;
+  color: chartreuse;
+  border-radius: 40px;
+  box-shadow: 0 0 40px chartreuse;
+  transition: 0.3s;
+}
+
+.character-container:hover {
+  transform: scale(1.1);
+}
+
+.character-container img {
+  border-radius: 40px 0 0 40px;
+}
+
+.character-container h2 {
+  padding-top: 180px;
+}
+
+.desc {
+  padding: 20px 30px;
+}
+
+.alive {
+  color: chartreuse;
+}
+
+.unknown {
+  color: #eee;
+}
+
+.dead {
+  color: red;
+}

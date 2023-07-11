@@ -1,0 +1,55 @@
+* {
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+::-webkit-scrollbar {
+  width: 20px;
+  background: #222;
+}
+
+::-webkit-scrollbar-thumb {
+  background: chartreuse;
+}
+
+body {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
+    url("https://images.hdqwalls.com/wallpapers/rick-and-morty-out-of-control-4k-ak.jpg");
+
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.character-grid {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.inputDiv {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  margin: 100px 0;
+}
+
+.inputDiv input {
+  color: chartreuse;
+  font-weight: bold;
+  background: #222;
+  border: 5px solid chartreuse;
+  border-radius: 20px;
+  margin: 50px 0px;
+  padding: 30px;
+  width: 500px;
+  font-size: 2rem;
+  transition: 0.3s;
+}
+
+.inputDiv input:focus {
+  outline: none;
+  box-shadow: 0 0 40px chartreuse;
+}
